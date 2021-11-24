@@ -1,0 +1,192 @@
+@import
+	url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap")
+	;
+
+/* Login form and register form */
+html {
+	font-size: 62.5%;
+	font-family: "Poppins", sans-serif;
+}
+
+h1, h3 {
+	font-weight: lighter;
+}
+
+body {
+	font-size: 1.3rem;
+}
+
+a:visited, a:link {
+	color: #15669c;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #000;
+	 
+}
+
+button {
+	background-color: #122b2e;
+	color: #f4eb95;
+	padding: 14px 20px;
+	margin: 20px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 0.5px solid #3f4140;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+button:focus, input:focus {
+	outline: none !important;
+	border: 0.5px solid #122b2e;
+	box-shadow: 0 0 10px #eab948;
+}
+
+.login-container {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: #fcfae2;
+	border-radius: 10px;
+}
+
+.login-elements {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.login-elements:first-child {
+	margin-top: 30px;
+}
+
+.create-account{
+	display: flex;
+	margin: 10px auto 30px;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.margin-bottom {
+ margin-bottom: 30px;
+}
+
+.screen-width {
+	width: 350px !important;
+	 
+}
+.error-message {
+	color: red;
+}
+
+/* navigation */
+.navbar {
+	width: 100%;
+	background-color: #122b2e;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: 1.6rem 2rem;
+	color: #f4eb95;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #122b2e;
+	color: #eab948 !important;
+	transition: 0.2s;
+}
+
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+	}
+}
+
+/* table list todos */
+.container {
+	padding-top: 100px;
+	width: 60%;
+	margin: auto;
+}
+
+table {
+	border-spacing: 0;
+	width: 100%;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #122b2e;
+}
+
+th {
+	text-align: left;
+	padding: 16px;
+}
+
+td {
+	text-align: left;
+	padding: 0.3rem 1rem;
+}
+
+thead {
+	background-color: #122b2e;
+	color: white;
+}
+
+.table-striped tr:nth-child(even) {
+	background-color: #f4eb95;
+}
+
+/* href to button */
+.btn {
+	border: none;
+	padding: 8px 16px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	margin-left: 0;
+	max-width: 13rem;
+	text-align: center;
+	 
+}
+
+.btn-add {
+	color: #fff !important;
+	background-color: #15669c !important;
+}
+
+.btn-delete {
+	color: #fff !important;
+	background-color: #ea4e5e !important;
+}
+
+.btn:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.screen-centred{
+	background: white ! important;
+	align-items:center;
+}
